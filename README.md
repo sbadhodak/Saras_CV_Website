@@ -19,7 +19,7 @@ I think this order makes sense because the user first learns who I am, then what
 Visual Design
 
 For the visual design, I wanted to create a website that looks professional but also a little different from a traditional CV.
-Before starting, I looked at different personal websites for inspiration. One of the websites I liked the most was Kshitij's Portfolio, because of its simple design, typography and distribution of the information.
+Before starting, I looked at different personal websites for inspiration. One of the websites I liked the most was Kshitij's Portfolio (https://kshitijcodes.in/?ref=onepagelove), because of its simple design, typography and distribution of the information.
 I decided to use a colour palette where beige is the main colour. I chose beige because I think it gives the website a clean and calm appearance. I combined it with dark burdeos, brown, light blue and olive colours to make some elements stand out.
 For the typography, I used Playfair Display for the main titles because I wanted them to look more elegant. For the rest of the text, I used Montserrat, as I think it's simple and easy to read.
 I also used rounded rectangles for the buttons, technology cards and other elements. For the technical skills, I added SVG logos because they look better than normal images and do not lose quality when changing their size.
