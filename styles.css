@@ -1,0 +1,681 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #E5E3DA;
+    color: #29100C;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contenidor {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 80px;
+}
+
+.capcalera {
+    border-bottom: 1px solid #AAA38C;
+}
+
+.contingut-capcalera {
+    min-height: 80px;
+    padding-top: 21px;
+}
+
+.nom {
+    display: inline-block;
+    width: 20%;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.menu {
+    display: inline-block;
+    width: 64%;
+    text-align: center;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 13px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: #5A1D22;
+}
+
+.boto-cv {
+    display: inline-block;
+    background-color: #5A1D22;
+    color: white;
+    padding: 11px 24px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.presentacio {
+    min-height: 650px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.text-presentacio {
+    display: inline-block;
+    width: 57%;
+    vertical-align: top;
+}
+
+.subtitol, .titol-seccio {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #8A7B40;
+}
+
+.subtitol {
+    margin: 0 0 15px;
+}
+
+.fila-nom {
+    margin-bottom: 15px;
+}
+
+.fila-nom h1 {
+    display: inline-block;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: normal;
+    font-size: 115px;
+    margin: 0 25px 0 0;
+}
+
+.linia-daurada {
+    display: inline-block;
+    width: 190px;
+    height: 3px;
+    background-color: #BFB065;
+    vertical-align: middle;
+}
+
+.text-presentacio h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.35;
+    margin: 0 0 25px;
+}
+
+.introduccio {
+    color: #6B6A67;
+    font-size: 15px;
+    line-height: 1.65;
+    margin: 0;
+}
+
+.botons-presentacio {
+    margin-top: 34px;
+}
+
+.boto {
+    display: inline-block;
+    padding: 13px 22px;
+    border-radius: 7px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.principal {
+    background-color: #5A1D22;
+    color: white;
+}
+
+.secundari {
+    border: 1px solid #5A1D22;
+}
+
+.imatge-presentacio {
+    display: inline-block;
+    width: 42%;
+    height: 495px;
+    position: relative;
+    vertical-align: top;
+}
+
+.bloc-daurat {
+    position: absolute;
+    background-color: #BFB065;
+    border-radius: 7px;
+}
+
+.bloc-daurat.primer {
+    width: 200px;
+    height: 245px;
+    top: 30px;
+    right: 0;
+}
+
+.bloc-daurat.segon {
+    width: 175px;
+    height: 245px;
+    top: 195px;
+    left: 10px;
+}
+
+.foto-presentacio {
+    position: absolute;
+    width: 72%;
+    height: 370px;
+    top: 60px;
+    left: 15%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.practiques {
+    position: absolute;
+    bottom: 8px;
+    left: 21%;
+    padding: 11px 25px;
+    background-color: #E5E3DA;
+    border: 1px solid #BFB065;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.separador-seccio {
+    border-top: 1px solid #AFA88D;
+}
+
+.sobre-mi {
+    padding: 45px 0 50px;
+}
+
+.sobre-mi-esquerra {
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+}
+
+.sobre-mi-dreta {
+    display: inline-block;
+    width: 68%;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+.titol-seccio {
+    margin: 0 0 25px;
+}
+
+.linia-fina {
+    display: inline-block;
+    width: 130px;
+    height: 1px;
+    background-color: #BFB065;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.sobre-mi h2, .habilitats h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0 0 40px;
+}
+
+.sobre-mi-dreta p {
+    color: #6B6A67;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 0 40px;
+}
+
+.titol-qualitats {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.qualitats {
+    text-align: center;
+}
+
+.qualitat {
+    display: inline-block;
+    width: 29%;
+    margin: 0 1.5%;
+    padding: 12px 15px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.iniciativa {
+    background-color: #A9C0CB;
+    color: #29100C;
+}
+
+.equip {
+    background-color: #5A1D22;
+}
+
+.adaptabilitat {
+    background-color: #53461C;
+}
+
+.habilitats {
+    padding: 45px 0 55px;
+}
+
+.capcalera-habilitats > div {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.capcalera-habilitats > p {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    color: #77746F;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.habilitats h2 {
+    margin-bottom: 15px;
+}
+
+.llista-tecnologies {
+    font-size: 0;
+}
+
+.tecnologia {
+    display: inline-block;
+    width: 31.5%;
+    height: 153px;
+    margin: 0 2.75% 28px 0;
+    padding: 15px;
+    border: 1px solid #A9C0CB;
+    border-radius: 17px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.tecnologia:nth-child(3n) {
+    margin-right: 0;
+}
+
+.tecnologia img {
+    height: 65px;
+    max-width: 95px;
+}
+
+.tecnologia h3 {
+    font-size: 16px;
+    margin: 5px 0 7px;
+}
+
+.tecnologia p {
+    font-size: 11px;
+    color: #86837B;
+    margin: 0;
+}
+
+.experiencia {
+    padding: 45px 0 32px;
+}
+
+.contingut-experiencia {
+    min-height: 255px;
+}
+
+.linia-temps {
+    display: inline-block;
+    position: relative;
+    width: 23%;
+    min-height: 240px;
+    border-left: 2px solid #5A1D22;
+    margin-left: 14px;
+    padding-left: 55px;
+    vertical-align: top;
+}
+
+.punt-temps {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 18px;
+    height: 18px;
+    background-color: #5A1D22;
+    border-radius: 50%;
+}
+
+.linia-temps p {
+    font-size: 13px;
+    color: #77746F;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.detalls-feina {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.detalls-feina h3 {
+    font-size: 18px;
+    margin: 0 0 8px;
+}
+
+.lloc-feina {
+    font-size: 14px;
+    color: #77746F;
+    margin: 0 0 35px;
+}
+
+.detalls-feina ul {
+    font-size: 14px;
+    color: #74706D;
+    line-height: 1.65;
+    padding-left: 20px;
+}
+
+.decoracio-botiga {
+    display: inline-block;
+    position: relative;
+    width: 24%;
+    height: 200px;
+    vertical-align: top;
+}
+
+.decoracio-botiga .cercle {
+    position: absolute;
+    top: 0;
+    left: 90px;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    background-color: #BFB065;
+    opacity: 0.5;
+}
+
+.decoracio-botiga img {
+    position: absolute;
+    top: 40px;
+    left: 45px;
+    width: 140px;
+    height: 140px;
+    opacity: 0.6;
+}
+
+.reflexio {
+    width: 78%;
+    margin-left: 21%;
+    padding: 20px 24px;
+    background-color: #DDD1CC;
+    color: #514947;
+    font-size: 13px;
+    line-height: 1.6;
+    border-radius: 8px;
+}
+
+.formacio-idiomes {
+    padding: 45px 0 50px;
+}
+
+.columna-formacio, .columna-idiomes {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.columna-formacio {
+    margin-right: 3%;
+}
+
+.targeta-formacio {
+    background-color: #D8D5C5;
+    border-radius: 12px;
+    padding: 20px;
+    min-height: 95px;
+    margin-bottom: 20px;
+}
+
+.targeta-formacio img {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    padding: 9px;
+    margin-right: 19px;
+    background-color: #E5E3DA;
+    border-radius: 9px;
+    vertical-align: middle;
+}
+
+.targeta-formacio div {
+    display: inline-block;
+    width: 76%;
+    vertical-align: middle;
+}
+
+.targeta-formacio h3 {
+    font-size: 16px;
+    margin: 0 0 6px;
+}
+
+.targeta-formacio p {
+    font-size: 13px;
+    color: #77746F;
+    margin: 3px 0;
+}
+
+.idioma {
+    background-color: #DCE5E7;
+    border-radius: 24px;
+    margin-bottom: 18px;
+    padding: 14px 18px;
+    min-height: 48px;
+}
+
+.idioma span {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.idioma span:first-child {
+    width: 28%;
+    font-weight: 600;
+}
+
+.idioma span:last-child {
+    width: 70%;
+    text-align: right;
+}
+
+footer {
+    background: #17241F url('imatges/pd19b4-eye-01-a-1.jpg') center center / cover no-repeat;
+    color: white;
+    min-height: 215px;
+}
+
+.contingut-contacte {
+    padding-top: 35px;
+}
+
+.titol-contacte {
+    display: inline-block;
+    width: 59%;
+    vertical-align: top;
+}
+
+footer .titol-seccio {
+    color: #E5E3DA;
+}
+
+.titol-contacte h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 55px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.titol-contacte .linia-daurada {
+    width: 210px;
+    height: 2px;
+}
+
+.enllacos-contacte {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.enllacos-contacte a {
+    display: inline-block;
+    width: 120px;
+    height: 112px;
+    margin-left: 35px;
+    padding: 17px;
+    border: 1px solid white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.enllacos-contacte a img {
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto 9px;
+    filter: brightness(0) invert(1);
+}
+
+.enllacos-contacte a span {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 800px) {
+    .contenidor {
+        padding: 0 22px;
+    }
+
+    .menu {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-top: 17px;
+    }
+
+    .menu a {
+        margin: 5px 10px 5px 0;
+    }
+
+    .boto-cv {
+        position: absolute;
+        top: 17px;
+        right: 22px;
+    }
+
+    .text-presentacio, .imatge-presentacio,
+    .sobre-mi-esquerra, .sobre-mi-dreta,
+    .capcalera-habilitats > div, .capcalera-habilitats > p,
+    .columna-formacio, .columna-idiomes,
+    .titol-contacte, .enllacos-contacte {
+        display: block;
+        width: 100%;
+    }
+
+    .presentacio {
+        padding-top: 35px;
+    }
+
+    .fila-nom h1 {
+        font-size: 75px;
+    }
+
+    .fila-nom .linia-daurada {
+        width: 85px;
+    }
+
+    .text-presentacio h2 {
+        font-size: 27px;
+    }
+
+    .imatge-presentacio {
+        margin-top: 30px;
+        height: 400px;
+    }
+
+    .foto-presentacio {
+        height: 290px;
+    }
+
+    .qualitat {
+        padding: 12px 6px;
+        font-size: 11px;
+    }
+
+    .capcalera-habilitats > p {
+        text-align: left;
+    }
+
+    .tecnologia {
+        width: 47%;
+        margin-right: 5%;
+    }
+
+    .tecnologia:nth-child(3n) {
+        margin-right: 5%;
+    }
+
+    .tecnologia:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .linia-temps {
+        width: 36%;
+    }
+
+    .detalls-feina {
+        width: 60%;
+    }
+
+    .decoracio-botiga {
+        display: none;
+    }
+
+    .reflexio {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .columna-formacio {
+        margin-bottom: 35px;
+    }
+
+    footer {
+        min-height: 350px;
+    }
+
+    .enllacos-contacte {
+        margin-top: 25px;
+        text-align: left;
+    }
+
+    .enllacos-contacte a {
+        margin: 0 20px 0 0;
+    }
+}
