@@ -28,3 +28,4 @@ For the contact section, I decided to use a dark background to make it different
 
 
 Figma link: https://www.figma.com/design/e0cDAXtLv5uIz0zgm7o8uj/Sara-s-CV-%7C-Personal-Website?node-id=0-1&t=9j3KL1p6LLkFW7qw-1 
+Git Hub Webpage: https://sbadhodak.github.io/Saras_CV_Website/ 
